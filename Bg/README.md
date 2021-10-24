@@ -2,7 +2,7 @@
 
 ## Dans le thème
 
-Vous trouverez ci-jointe l'image à reproduire (screencapture-websitedemos-net-mountain-2021-10-24-19_14_28.png).
+Vous trouverez ci-jointe l'image à **reproduire** (screencapture-websitedemos-net-mountain-2021-10-24-19_14_28.png).
 
 Le thème se trouve [ici](https://websitedemos.net/mountain/).
 
