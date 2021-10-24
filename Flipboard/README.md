@@ -1,4 +1,4 @@
-# Recto-verso (difficulté niveau 2)  
+# Recto-verso
 Une page, quatre articles, des images, du texte. Lorsque la souris passe sur un élément, il se retourne pour afficher du texte.  
   
 ### Les images, les étapes  
