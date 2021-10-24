@@ -14,4 +14,4 @@ Re-créez la séquence normale d'allumage d'un feu tricolore.
 
 # Synchro
 
-Tentez de synchroniser 2 feux !
+Tentez de synchroniser 2 feux (comme sur un carrefour) ! Notez que sur un carrefour, les deux feux ne restent pas pendant la même durée au vert et au rouge... ;)
