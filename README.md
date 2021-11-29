@@ -2,7 +2,7 @@
 
 Mise en page avancée et animation.
 
-Compétence : Réaliser une interface utilisateur web statique et adaptable
+> Compétence : Réaliser une interface utilisateur web statique et adaptable
 
 ***
 
