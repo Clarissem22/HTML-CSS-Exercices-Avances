@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*SECTION 1*/
+
+/* Header*/
+header{
+    display: flex;
+}
+
+.btn_logo{
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.logo{
+    margin-left: 40px;
+    padding: 50px 50px;
+}
+
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-image: url(https://websitedemos.net/mountain/wp-content/uploads/sites/571/2020/04/landscape-mountains-sky-4843193.jpg);
+    color : white;
+    background-size: cover;
+    position : relative
+}
+
+/*nav bar */
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin: 50px ; 
+    justify-content: flex-end;
+   
+}
+nav {
+    width: 100%;
+}
+li a{
+    justify-content: flex-end;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    right : 0;
+    padding: 0 20px;
+    justify-content: center;
+    text-align: center;    
+    margin-right: 40px;
+ 
+}
+
+li a:hover{
+    opacity: 0.7;
+}
+
+.action{
+    padding : 15px 30px;
+    margin-top: -20px;
+    letter-spacing: 2px;
+    background-color: #1a6c7a;
+    right: 0;
+    border: 1px solid #1a6c7a;
+    color: white;
+}
+
+/*Text btn top*/
+p{
+    margin: 10px 0 10px 0;
+}
+
+.text_top{
+    text-align: center;
+    justify-content: center;
+    margin: 60px 0 10px 0;
+    z-index: 40;
+    
+}
+
+.text_one{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 10px 0;
+    letter-spacing: 2px;
+}
+
+h1{
+    font-size: 50px;
+    margin: 10px 0 10px 0;
+    letter-spacing: 2px;
+}
+
+
+.btnservices{
+    padding : 10px 30px;
+    margin-top: 30px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.btnabout{
+    padding : 10px 30px;
+    background-color: white;
+    border: 3px solid white;
+    color: #1a6c7a;
+}
+
+.btnservices:hover{
+    transition: 0.2s;
+    background-color: #1a6c7a;
+    color: white;
+}
+.btnabout:hover{
+    transition: 0.2s;
+    background-color: #1a6c7a;
+    color: white;
+}
+
+
+
+
+/*SECTION 2*/
+.section_two{
+    height: 100vh;
+    width: 100vw;
+}
+
+.section_img{
+    margin : 5% 10% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.img_one{
+    background-image: url(img/montagne1.avif);
+    background-size: cover;
+    height: 400px;
+    width: 580px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.img_one:hover{
+    opacity: 0.7;
+}
+
+
+
+.img_two{
+    background-image: url(img/montagne2.avif);
+    background-size: cover;
+    height: 400px;
+    width: 580px;
+    margin : 0 10px 0 10px;
+}
+.img_two:hover{
+    opacity: 0.7;
+}
+
+.img_three{
+    background-image: url(img/montagne3.avif);
+    background-size: cover;
+    height: 400px;
+    width: 580px;
+    margin : 0 10px 0 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.img_three:hover{
+    opacity: 0.7;
+}
+
+h2{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    line-height: 16.6;
+}
+
+.txt_two{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.left{
+    height: 100px;
+    width: 50%;
+    font-size: 30px;
+}
+
+.right{
+    height: 100px;
+    width: 50%;
+    justify-content: center;
+
+}
+
+.btnhistory{
+    padding : 10px 30px;
+    background-color: white;
+    border: 3px solid #1a6c7a;
+    color: #1a6c7a;
+}
+
+.btnhistory:hover{
+    transition: 0.2s;
+    background-color: #1a6c7a;
+    color: white;
+}
+
+
+/*SECTION 3*/
+.section_three{
+    height: 70vh;
+    background-image: url(https://websitedemos.net/mountain/wp-content/uploads/sites/571/2020/04/landscape-mountains-sky-4843193.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+.callaction{
+    display:flex; 
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 100px 0 10px 0;
+    color : white;
+}
+
+.sec_three_pone{
+    padding-top: 10%;
+    font-size: 30px;
+    font-weight: italic;
+    margin: 10px 0 10px 0;
+}
+
+.sec_three_ptwo{
+    font-size: 15px;
+    margin: 10px 0 10px 0;
+}
+
+.btncontact{
+    height: 50px;
+    width: 130px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    letter-spacing: 2px;
+
+}
+    
+
+.btncontact:hover{
+        transition: 0.2s;
+        background-color: white;
+        color: black;
+    }
+
+/*SECTION 4*/
+.section_four{
+    height: 90vh;
+    width: 100vw;
+    padding-top: 50px;
+    background-color: #f3f9fb;
+}
+
+.photos{
+    display: flex;
+    margin : 10px 10% 10px 10%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+}
+    
+
+
+.photo_one{
+    background-image: url(img/montagne4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 380px;
+}
+
+.photo_two{
+    background-image: url(img/montagne5.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 380px;
+}
+
+.photo_three{
+    background-image: url(img/montagne6.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 380px;
+}
+
+.photo_four{
+    background-image: url(img/montagne7.avif);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    height: 300px;
+    width: 380px;
+}
+
+.photo_five{
+    background-image: url(img/montagne8.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 380px;
+}
+
+.photo_six{
+    background-image: url(img/montagne9.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 380px;
+}
+
+
+/*FOOTER */
+footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 100%;
+    text-align: left;
+    bottom: 0%;
+    width: 100%;
+    padding: 100px 5px 0 5px;
+    color: black;
+  }
+
+.logo_end{
+    padding-bottom: 20px;
+}
+
+.left_end{
+    color: #1a6c7a;
+    padding-left: 100px;
+}
+
+.center_end{
+    text-decoration: none;  
+    padding-left: 60px;
+}
+
+.right_end{
+    padding-left: 60px;
+    text-decoration: none; 
+}
+
+
+hr{
+    width: 100vw;
+    margin-top: 20px;
+    color :#1a6c7a;
+}
+.copyright{
+    width: 100%;
+    color: #1a6c7a;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
